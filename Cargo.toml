@@ -1,0 +1,14 @@
+
+[package]
+name = "pkg"
+version = "0.1.0"
+edition = "2021"
+default-run = "pkg"
+
+[[bin]]
+name = "pkg"
+path = "src/bin/_.rs"
+
+[lib]
+name = "pkg"
+path = "src/lib/_.rs"
